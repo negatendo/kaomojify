@@ -5,7 +5,7 @@ require 'bishop'
 require 'twitter'
 require 'twitter_ebooks'
 
-require_relative 'config'
+#require_relative 'config'
 
 def log(*args)
   STDERR.puts args.map(&:to_s).join(' ')
